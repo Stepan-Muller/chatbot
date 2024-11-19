@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@llm-ui/code": "^0.13.3",
+    "@llm-ui/markdown": "^0.13.3",
+    "@llm-ui/react": "^0.13.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +13,17 @@
     "@types/node": "^16.18.119",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "axios": "^1.7.7",
+    "html-react-parser": "^5.1.18",
+    "katex": "^0.16.11",
+    "markdown-it": "^14.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-katex": "^3.0.1",
+    "react-markdown": "^9.0.1",
     "react-scripts": "5.0.1",
+    "remark-gfm": "^4.0.0",
+    "shiki": "^1.22.2",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +50,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/markdown-it": "^14.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.48",
+    "tailwindcss": "^3.4.14"
   }
 }
